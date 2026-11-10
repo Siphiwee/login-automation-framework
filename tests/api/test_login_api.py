@@ -25,6 +25,7 @@ def test_valid_api_login():
     print("Status Code:", response.status_code)
     print("Username:", data["username"])
     print("CI/CD verification: API login test executed successfully")
+    print("Automatic GitHub Actions execution verified")
 
 
 def test_invalid_api_password():
