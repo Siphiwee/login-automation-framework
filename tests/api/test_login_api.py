@@ -26,7 +26,7 @@ def test_valid_api_login():
     print("Username:", data["username"])
     print("SUCCESS: Automatic CI pipeline triggered by GitHub push")
     print("Automatic GitHub Actions execution verified")
-
+    print("CI/CD Test 2: New push detected successfully")
 
 def test_invalid_api_password():
 
