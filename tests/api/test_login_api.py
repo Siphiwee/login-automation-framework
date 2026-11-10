@@ -14,7 +14,7 @@ def test_valid_api_login():
 
     response = requests.post(BASE_URL, json=payload)
 
-    assert response.status_code == 200
+    assert response.status_code == 100
 
     data = response.json()
 
