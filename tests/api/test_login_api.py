@@ -9,12 +9,12 @@ def test_valid_api_login():
 
     payload = {
         "username": "emilys",
-        "password": "emilyspass"
+        "password": "Siphiwe"
     }
 
     response = requests.post(BASE_URL, json=payload)
 
-    assert response.status_code == 100
+    assert response.status_code == 200
 
     data = response.json()
 
