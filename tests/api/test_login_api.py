@@ -9,7 +9,7 @@ def test_valid_api_login():
 
     payload = {
         "username": "emilys",
-        "password": "siphiwe"
+        "password": "emilyspass"
     }
 
     response = requests.post(BASE_URL, json=payload)
