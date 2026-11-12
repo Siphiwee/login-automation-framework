@@ -7,3 +7,5 @@ reports/
 *.pyc
 .env
 login-automation/
+
+.vs/
